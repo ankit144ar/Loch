@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root {
+  background-color: #19191a;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1280px) {
+  .row {
+      flex-direction: column;
+      gap: 40px;
+  }
+  
+  .landing section .row .col {
+      margin:0;
+      width:100%;
+      padding:0 calc(20px + 5%);
+  }
+  .landing section.section-testimonials .col-b{
+    padding: 0;
+  }
+  .slick-list .row {
+    flex-direction: row;
+}
+
+  .section-aboutUs .row{
+      flex-direction: column-reverse;
+  }
+  section.section-aboutUs .iinerContainer{
+      margin:0;
+      width:100%;
+      text-align:left;
+  }
+  .section-aboutUs .row .col-a{
+      text-align:center;
+  }
+  .section-aboutUs .row .col-a img{
+      max-width:320px;
+      margin: 0 auto;
+  }
+  
+  .section-testimonials{
+      padding-top:40px;
+  }
+  .section-testimonials .testimonialsHeading{
+      text-align:left;
+  }
+  .section-testimonials .col-a{
+      display:none;
+  }
+  
+  .banner.row-b {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+  }
+  
+   
+  }
+
+
+  @media screen and (max-width: 980px) and (min-width: 767px) {
+    section{
+        width:95%;
+        margin: 0 auto;
+    }
+    
+    .main.container {
+        flex-direction: column;
+    }
+    
+    .main.container .landing {
+        width: 100%;
+    }
+    
+    .main.container .banner {
+        width: 100%;
+    }
+    
+    .row {
+        flex-direction: row!important;
+    }
+    
+    .landing section .row .col {
+        width: 50%;
+        padding: 5px;
+    }
+    
+    .section-testimonials .col-b {
+        width: 100%!important;
+    }
+    
+    }
+    @media only screen and (max-width: 980px) {
+    
+        .main.container {
+        flex-direction: column;
+    }
+    
+    .main.container .landing {
+        width: 100%!important;
+    }
+    
+    .main.container .banner {
+        width: 100%!important;
+        padding: 10px 5%;
+    }
+    }

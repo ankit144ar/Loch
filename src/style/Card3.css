@@ -1,0 +1,41 @@
+.card3 {
+    padding: 14px;
+    width: 189.7px;
+    border-radius: 8.4px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 171.5px;
+}
+.card3 .row {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card3 .clockImage {
+    width: 28px;
+}
+
+.card3 .description {
+    font-size: 11.2px;
+    line-height: 13.4px;
+    color: rgba(25, 25, 26, 1);
+    margin-bottom: 2.8px;
+}
+.card3 .description:last-child{
+    margin: 2.8px 0 0 0;
+}
+.card3 select.cost {
+    border-radius: 2.8px;
+    padding: 4.2px;
+    border: none;
+    color: rgba(49, 50, 51, 1);
+    background-color: rgba(229, 229, 230, 0.5);
+    font-size: 9.1px;
+    line-height: 10.92px;
+    width: max-content;
+}
+.card3 select.cost option {
+    color: rgba(49, 50, 51, 1);
+  }

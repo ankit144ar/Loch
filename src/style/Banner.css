@@ -1,0 +1,66 @@
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.banner-container {
+  max-width: 365px;
+  width: 100%;
+}
+.bannerOuter {
+  max-width: 340px;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner-heading {
+  font-size: 39px;
+  line-height: 46.8px;
+  color: #b0b1b3;
+}
+.banner-form input {
+  display: block;
+  max-width: 340px;
+  width: 100%;
+  padding: 20px 24px;
+  border-radius: 8px;
+  border: 1px solid #e5e5e6;
+  font-size: 16px;
+  line-height: 19.2px;
+  margin: 32px 0 22px;
+  box-sizing: border-box;
+  color: #000;
+}
+.banner-form input::placeholder {
+  color: #e5e5e6;
+}
+.banner-form button {
+  background-color: #19191a;
+  border: 1px solid #19191a;
+  padding: 18px 28px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.banner-text {
+  opacity: 0.8;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  color: #19191A;
+}
+.banner.row-b {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+.Toastify__toast-body > div:last-child{
+  color: #19191A;
+}

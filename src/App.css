@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap');
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  color: #fff;;
+}
+img {
+  width: 100%;
+}
+.row{
+  display: flex;
+}
+
+.main.container{
+  display: flex;
+}
+.main.container .landing{
+  position: relative;
+  overflow: hidden;
+  width: 55.5%;
+}
+.main.container .banner{
+  z-index: 2;
+  width: 44.5%;
+}
+.col-6{
+  width: 50%;
+}
+.main.container .landing .backgroundGrad:after {
+  content: '';
+  background: radial-gradient(79.84% 79.84% at 32.27% 91.27%, rgba(31, 169, 17, 0.810119) 17.21%, #2F15D0 64.58%, rgba(0, 0, 0, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  width: 167%;
+  height: 127.58%;
+  position: absolute;
+  top: -11.58%;
+  left: -48.05%;
+  z-index: 1;
+  pointer-events: none;
+}

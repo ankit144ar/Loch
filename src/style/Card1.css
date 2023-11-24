@@ -1,0 +1,42 @@
+.card1 {
+    padding: 14px;
+    height: 171.5px;
+    width: 189.7px;
+    border-radius: 8.4px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(180deg, rgba(255, 255, 255, 0.2) 27.5%, rgba(22, 93, 255, 0.162) 157.71%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card1 .row {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card1 .bell2Image {
+    width: 28px;
+}
+.card1 .row button {
+    border: none;
+    background: transparent;
+    color: rgba(25, 25, 26, 1);
+    font-size: 9.1px;
+    font-weight: 600;
+    line-height: 10.92px;
+    cursor: pointer;
+}
+
+.card1 .description {
+    font-size: 14px;
+    line-height: 16.8px;
+    color: rgba(25, 25, 26, 1);
+    margin: 7px auto;
+}
+
+.card1 input{
+    padding: 8.4px 11.2px;
+    width: 100%;
+    border: 0.7px solid rgba(212, 212, 212, 1);
+    border-radius: 5.6px;
+    color: rgba(25, 25, 26, 1);
+}
